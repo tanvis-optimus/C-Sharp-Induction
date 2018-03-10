@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ITCompanyFinder.DataAccessLayer;
 using System.Linq;
 using System.Xml;
 
@@ -14,6 +15,7 @@ namespace ITCompanyFinder.BusinessLogic
     {
         #region variables
         string _nextPage;
+        public bool HasCity = false;
         XmlDocument _mResponseDoc;
         IList<string> Company_Names;
         IList<string> Company_Addresses;
@@ -30,6 +32,12 @@ namespace ITCompanyFinder.BusinessLogic
             _mResponseDoc = new XmlDocument();
         }
         #endregion        
+        public CompanyDetailsModelBL GetCompanyByLocation(String location, int count, string token)
+        {
+            DataFromAPI obj = new DataFromAPI();
+            var response = obj.RequestToApi(location, count, token);
+            return XmlParsing(response);
+        }
 
         #region XML parsing
         /// <summary>
@@ -46,25 +54,21 @@ namespace ITCompanyFinder.BusinessLogic
             XmlNodeList addressList = _mResponseDoc.GetElementsByTagName("formatted_address");
             foreach (XmlNode node in nameList)
             {
+                HasCity = true;
                 Company_Names.Add(node.InnerText);
             }
-
             foreach (XmlNode node in addressList)
             {
                 Company_Addresses.Add(node.InnerText);
             }
-            //foreach (var word in Company_Names.Zip(Company_Addresses, (companyNamesObj, companyAddressObj) => new { companyNamesObj, companyAddressObj }))
-            //{
-            //    Details.Add(word.companyNamesObj + "  ----  " + word.companyAddressObj);
-            //}
             foreach (XmlNode node in nextPageToken)
             {
                 _nextPage = (node.InnerText);
             }
             return new CompanyDetailsModelBL
             {
-               Company_Names = Company_Names,
-               Company_Addresses = Company_Addresses,
+                Company_Names = Company_Names,
+                Company_Addresses = Company_Addresses,
                 NextPageToken = _nextPage
             };
         }

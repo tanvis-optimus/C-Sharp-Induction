@@ -7,3 +7,12 @@ C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLa
 C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
 C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
 C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.deps.json
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfo.cs
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb

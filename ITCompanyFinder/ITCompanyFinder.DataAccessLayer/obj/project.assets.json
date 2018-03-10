@@ -177,26 +177,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sysadmin\\.nuget\\packages\\": {},
+    "C:\\Users\\tanvi.sehgal\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\shubham.kumar\\source\\repos\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
       "projectName": "ITCompanyFinder.DataAccessLayer",
-      "projectPath": "C:\\Users\\shubham.kumar\\source\\repos\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\sysadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shubham.kumar\\source\\repos\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\obj\\",
+      "projectPath": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\tanvi.sehgal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sysadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanvi.sehgal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

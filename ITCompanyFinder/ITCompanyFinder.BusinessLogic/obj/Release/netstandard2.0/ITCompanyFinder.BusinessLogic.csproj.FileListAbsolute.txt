@@ -9,3 +9,15 @@ C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogi
 C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfo.cs
 C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
 C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.deps.json
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfo.cs
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csproj.CopyComplete
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
+C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb
