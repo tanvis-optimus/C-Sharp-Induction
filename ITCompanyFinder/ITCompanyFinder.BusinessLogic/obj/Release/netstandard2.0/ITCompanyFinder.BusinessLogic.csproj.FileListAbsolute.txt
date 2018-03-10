@@ -1,0 +1,11 @@
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.deps.json
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfo.cs
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
+C:\Users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb

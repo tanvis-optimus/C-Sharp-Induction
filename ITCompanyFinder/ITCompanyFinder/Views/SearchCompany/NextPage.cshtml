@@ -1,0 +1,41 @@
+﻿@model ITCompanyFinder.Models.CompanyDetailsModelUI
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NextPage</title>
+</head>
+
+<body>
+    <h1 align="center">
+        <b>List of Companies</b>
+    </h1>
+    <div>
+       
+            @foreach (var value in Model.CompanyNames)
+            {
+                <li>@value</li>
+            }
+      
+        
+    </div>
+
+    <form align= "center" action="NextPage" method="post">
+
+        <input id="token" type="hidden" name="token" value=@ViewBag.NextPageToken />
+        <input id="hitcountfromui" type="hidden" name="hitcountfromui" value=@ViewBag.lasthitcount />
+        @if (@ViewBag.lasthitcount != 3)
+        {
+            <input id="bt_next" type="submit" value="Next"/ >
+        }
+
+    </form>
+</body>
+</html>

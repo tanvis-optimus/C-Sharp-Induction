@@ -1,0 +1,8 @@
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.deps.json
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.csproj.CoreCompileInputs.cache
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfoInputs.cache
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfo.cs
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+c:\users\shubham.kumar\source\repos\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Debug\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
