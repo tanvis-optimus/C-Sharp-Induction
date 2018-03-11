@@ -6,7 +6,7 @@ using System.Net;
 namespace ITCompanyFinder.DataAccessLayer
 {
     /// <summary>
-    /// this classs hits requests the api
+    /// this class requests the api
     /// </summary>
     public class DataFromAPI
     {
@@ -21,10 +21,8 @@ namespace ITCompanyFinder.DataAccessLayer
         #region Constructor
         public DataFromAPI()
         {
-
-            _mApiKey = "AIzaSyAMCUtWMud-HGlFfZpSJdPhE6nxu_xDkaU";
+            _mApiKey = "AIzaSyDHI_74KgC8rZa_MTgL0OoI9MdGZ8gpUbY";
             _mUrl = "https://maps.googleapis.com/maps/api/place/textsearch/xml?";
-
         }
         #endregion        
 
@@ -33,12 +31,12 @@ namespace ITCompanyFinder.DataAccessLayer
         /// this method hits the api and returns the response
         /// </summary>
         /// <returns></returns>
-        public String RequestToApi(String location, int hitcount, string token)
+        public String RequestToApi(String location, int hitCount, string token)
         {
-            if (hitcount == 1)
-            { //concatenating results to form complete url
+            if (hitCount == 1)
+            { 
+                //concatenating results to form complete url
                 _mReq = _mUrl + "query=" + "IT+companies+in+" + location + "&key=" + _mApiKey;
-
             }
 
             else

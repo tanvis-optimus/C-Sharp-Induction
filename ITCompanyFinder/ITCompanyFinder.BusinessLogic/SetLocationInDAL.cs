@@ -14,7 +14,6 @@ namespace ITCompanyFinder.BusinessLogic
             DataFromAPI obj = new DataFromAPI();
             var response = obj.RequestToApi(location,count,token);
             return response;
-        }     
-        
+        }          
     }
 }

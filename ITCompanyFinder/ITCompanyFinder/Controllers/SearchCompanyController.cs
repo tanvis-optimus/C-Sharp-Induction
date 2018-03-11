@@ -8,78 +8,81 @@ namespace ITCompanyFinder.Controllers
 {
     public class SearchCompanyController : Controller
     {
-        static int hitcount;
-        static string city;
-        string token;
+        #region Variables
+        static int _hitCount;
+        static string _city;
+        string _mtoken;
+        #endregion
 
-
-        // GET: SearchCompany
-        public ActionResult Index()
-        {
-            return View();
-        }
-
+        #region Action for HomePage
         [HttpGet]
         public ActionResult GetDataFromUser()
         {
-            hitcount = 0;
+            ViewBag.title = "IT Company Finder";
             return View("SearchView");
         }
+        #endregion
 
-        [HttpPost]
-        public ActionResult GetDataFromUser1()
-        {
-            hitcount = 0;
-            return View("SearchView");
-        }
-
+        #region Action on search button
+        /// <summary>
+        ///  get city entered by user and 
+        /// display the list of companies
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult DisplayCompanies()
         {
-            hitcount = Int32.Parse(Request["sethitcount"]);
-            hitcount++;
-            city = Request["tx_location"];
-            token = string.Empty;
+            ViewBag.title = "List Of Companies";
+            _hitCount = Int32.Parse(Request["sethitcount"]);
+            _hitCount++;
+            _city = Request["tx_location"];
+            ViewBag.city = _city;
+            _mtoken = string.Empty;
             var selectedCompanies = GetData();
             return View("CompaniesDataView", selectedCompanies);
-
         }
+        #endregion
 
-
+        #region Action on next button
         public ActionResult NextPage()
         {
-
-            hitcount = Int32.Parse(Request["hitcountfromui"]) + 1;
-            token = ViewBag.NextpageToken;
-            token = Request["token"];
+            ViewBag.title = "List Of Companies";
+            _hitCount = Int32.Parse(Request["hitcountfromui"]) + 1;
+            _mtoken = ViewBag.NextpageToken;
+            _mtoken = Request["token"];
             var selectedCompanies = GetData();
             return View("CompaniesDataView", selectedCompanies);
-
-
         }
+        #endregion
 
-
+        #region Send Data to view
+        /// <summary>
+        /// this method gets data from business logic and 
+        /// sends the result to view
+        /// </summary>
+        /// <returns></returns>
         private List<CompanyDetailsModelUI> GetData()
         {
             DataParsing setLocation = new DataParsing();
-            var result = setLocation.GetCompanyByLocation(city, hitcount, token);
+            var result = setLocation.GetCompanyByLocation(_city, _hitCount, _mtoken);
             ViewBag.HasResponse = setLocation.HasCity;
 
             //Convert to companyDetailModel list 
             var selectedCompanies = new List<CompanyDetailsModelUI>();
-            for (int index = 0; index < result.Company_Names.Count; index++)
+            for (int index = 0; index < result.Names.Count; index++)
             {
                 var company = new CompanyDetailsModelUI
                 {
-                    CompanyNames = result.Company_Names[index],
-                    CompanyAddresses = result.Company_Addresses[index]
+                    CompanyNames = result.Names[index],
+                    CompanyAddresses = result.Addresses[index]
                 };
                 selectedCompanies.Add(company);
             }
             ViewBag.NextPageToken = result.NextPageToken;
-            ViewBag.lasthitcount = hitcount;
+            ViewBag.lasthitcount = _hitCount;
             return selectedCompanies;
         }
+        #endregion
     }
 
 }

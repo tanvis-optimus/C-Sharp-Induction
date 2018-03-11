@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using ITCompanyFinder.DataAccessLayer;
-using System.Linq;
 using System.Xml;
 
 
@@ -17,49 +16,57 @@ namespace ITCompanyFinder.BusinessLogic
         string _nextPage;
         public bool HasCity = false;
         XmlDocument _mResponseDoc;
-        IList<string> Company_Names;
-        IList<string> Company_Addresses;
-        List<string> Details;
+        IList<string> _companyNames;
+        IList<string> _companyAddresses;      
         #endregion
 
         #region constructor
         public DataParsing()
         {
             //initialising lists
-            Company_Names = new List<String>();
-            Company_Addresses = new List<String>();
-            Details = new List<String>();
+            _companyNames = new List<String>();
+            _companyAddresses = new List<String>();           
             _mResponseDoc = new XmlDocument();
         }
-        #endregion        
+        #endregion
+
+        #region CallingApi
+        /// <summary>
+        /// this method calls a method which hits the api and returns response string
+        /// </summary>
+        /// <param name="location"></param>
+        /// <param name="count"></param>
+        /// <param name="token"></param>
+        /// <returns></returns>
         public CompanyDetailsModelBL GetCompanyByLocation(String location, int count, string token)
         {
             DataFromAPI obj = new DataFromAPI();
             var response = obj.RequestToApi(location, count, token);
             return XmlParsing(response);
         }
+        #endregion
 
         #region XML parsing
         /// <summary>
-        /// this method parses the xml response from api
+        /// this method parses the xml response from api 
         /// </summary>
-        /// <param name="responsestring"></param>
+        /// <param name="responseString"></param>
         /// <returns></returns>
-        public CompanyDetailsModelBL XmlParsing(string responsestring)
+        public CompanyDetailsModelBL XmlParsing(string responseString)
 
         {
-            _mResponseDoc.LoadXml(responsestring);
+            _mResponseDoc.LoadXml(responseString);
             XmlNodeList nextPageToken = _mResponseDoc.GetElementsByTagName("next_page_token");
             XmlNodeList nameList = _mResponseDoc.GetElementsByTagName("name");
             XmlNodeList addressList = _mResponseDoc.GetElementsByTagName("formatted_address");
             foreach (XmlNode node in nameList)
             {
                 HasCity = true;
-                Company_Names.Add(node.InnerText);
+                _companyNames.Add(node.InnerText);
             }
             foreach (XmlNode node in addressList)
             {
-                Company_Addresses.Add(node.InnerText);
+                _companyAddresses.Add(node.InnerText);
             }
             foreach (XmlNode node in nextPageToken)
             {
@@ -67,8 +74,8 @@ namespace ITCompanyFinder.BusinessLogic
             }
             return new CompanyDetailsModelBL
             {
-                Company_Names = Company_Names,
-                Company_Addresses = Company_Addresses,
+                Names = _companyNames,
+                Addresses = _companyAddresses,
                 NextPageToken = _nextPage
             };
         }

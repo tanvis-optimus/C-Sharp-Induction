@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="G:\office\New folder\ITCompanyFinder\ITCompanyFinder\obj\Release\Package\PackageTmp" />
+  <setAcl path="G:\office\New folder\ITCompanyFinder\ITCompanyFinder\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="G:\office\New folder\ITCompanyFinder\ITCompanyFinder\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

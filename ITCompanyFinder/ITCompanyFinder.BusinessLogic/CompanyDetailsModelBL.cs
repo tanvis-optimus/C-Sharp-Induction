@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ITCompanyFinder.BusinessLogic
 {
@@ -15,14 +14,14 @@ namespace ITCompanyFinder.BusinessLogic
         // Initialises the company details property
         public CompanyDetailsModelBL()
         {
-            Company_Names = new List<String>();
-            Company_Addresses = new List<String>();
+            Names = new List<String>();
+            Addresses = new List<String>();
         }
         #endregion
 
         //declaring properties
-        public IList<String> Company_Names { get; set; }
-        public IList<String> Company_Addresses { get; set; }
+        public IList<String> Names { get; set; }
+        public IList<String> Addresses { get; set; }
         public string NextPageToken { get; set; }
 
     }

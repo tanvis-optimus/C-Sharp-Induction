@@ -1,0 +1,96 @@
+﻿body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #ee6e73;
+}
+
+main {
+    flex: 1 0 auto;
+}
+/* changing default of materialize css */
+nav {
+    background-color: #fff;
+}
+
+    nav a {
+        color: #000 !important;
+    }
+
+    nav .brand-logo {
+        padding-left: 15px;
+    }
+
+.page-footer {
+    background-color: #fff;
+    padding: 0px !important;
+}
+
+    .page-footer .container, .page-footer .container a {
+        color: #000 !important;
+    }
+
+    .page-footer .footer-copyright {
+        background-color: #fff;
+    }
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fff !important;
+    -webkit-box-shadow: 0 1px 0 0 #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid #fff !important;
+}
+
+.input-field label {
+    color: #fff !important;
+}
+
+.input-field i {
+    color: #fff !important;
+}
+
+.input-field .prefix.active {
+    color: #fff !important;
+}
+
+input {
+    color: #fff !important;
+}
+
+    input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+        color: #fff !important;
+    }
+
+    input[type="submit"].btn {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+#tx_location {
+    margin-bottom: 8px !important;
+}
+
+#tx_error {
+    margin: 0px 0 8px 0 !important;
+    color: #fff;
+}
+
+a.btn {
+    background-color: #fff !important;
+    color: #000;
+}
+table tbody tr:nth-of-type(even) td {
+    color: #fff!important;
+}
+table thead tr th {
+    color: #fff!important;
+}
+/* Changing defaults end */
+
+/*Helper class*/
+.hidden {
+    display: none;
+}

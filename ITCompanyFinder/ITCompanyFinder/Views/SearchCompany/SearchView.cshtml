@@ -4,42 +4,18 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ITCompanyFinder</title>
+    @Html.Partial("_HeaderPartial")
 </head>
-
-
-<body style="background-image:url(Images/Searchimages.jpg); background-size:100%;">
-    <h1 align="center">
-        <b>IT Company Finder</b>
-    </h1>
-    <form align="center" action="SearchCompany/DisplayCompanies" method="post" onsubmit="return validate(event)">
-
-        Enter Location Here : <input id="tx_location" type="text" name="tx_location" /><br?></br?>
-        <input id="bt_search" type="submit" value="Search" />
-        <input id="sethitcount" type="hidden" name="sethitcount" value="0" />
-        <p style="display:none;" id="tx_error">Enter a Valid Location</p>
-
-    </form>
-    <script>
-        function validate(e) {
-            var location_element = document.querySelector('#tx_location');
-            var location_error_element = document.querySelector('#tx_error');
-            var location_regex = /^(?![0-9]*$)[a-zA-Z0-9-, ]+$/;
-            if (!location_regex.test(location_element.value)) {
-                location_error_element.style.display = 'block';
-                return false;
-            } else {
-                location_error_element.style.display = 'none';
-                return true;
-            }
-            
-        }
-
-    </script>
+<body>
+    <main>
+        @Html.Partial("_NavBarPartial")
+        <div class="container">
+            @Html.Partial("_SearchPartial")
+        </div>
+    </main>
+    @Html.Partial("_FooterPartial")
 
 </body>
 </html>

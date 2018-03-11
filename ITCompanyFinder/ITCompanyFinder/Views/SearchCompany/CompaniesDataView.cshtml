@@ -2,56 +2,70 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>CompaniesDataView</title>
+    @Html.Partial("_HeaderPartial")
 </head>
 <body>
-    <h1 align="center">
-        <b>List of Companies</b>
-    </h1>
-    @if (@ViewBag.HasResponse)
-    {
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Address</th>
-            </tr>
-
-            @foreach (var value in Model)
+    <main>
+        @Html.Partial("_NavBarPartial")
+        <div class="container">
+            @Html.Partial("_SearchPartial")
+            @if (@ViewBag.HasResponse)
             {
-                <tr>
-                    <td> @value.CompanyNames </td>
-                    <td> @value.CompanyAddresses </td>
-                </tr>
+                <div class="row">
+                    <div class="col m12">
+                        <table class="center-align striped responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Address</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var value in Model)
+                                {
+                                    <tr>
+                                        <td> @value.CompanyNames </td>
+                                        <td> @value.CompanyAddresses </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             }
-        </table>
-    }
-    else
-    {
-        <h3>No Such Location Exists</h3>
-    }
+            else
+            {
+                <div class="row">
+                    <div class="col m12 center-align">
+                        <h3 class="white-text">No Such Location Exists : @ViewBag.city</h3>
+                    </div>
+                </div>
+            }
+            <div class="row center-align">
+                @if (@ViewBag.lasthitcount != 3 && @ViewBag.HasResponse)
+                {
 
-    <form align="center" action="NextPage" method="post">
-        <input id="hitcountfromui" type="hidden" name="hitcountfromui" value=@ViewBag.lasthitcount />
-        <input id="token" type="hidden" name="token" value=@ViewBag.NextPageToken />
-        @if (@ViewBag.lasthitcount != 3)
-        {
-            <input id="bt_next" type="submit" value="Next" />
-        }
-
-
-    </form>
-    @if (@ViewBag.lasthitcount == 3)
-    {
-        <font color="red">No More Results to show </font>
-        <button type="button" onclick="window.location.href = '/'">Home</button>
-
-    }
+                    <div class="col m12">
+                        <form action="NextPage" method="post">
+                            <input id="hitcountfromui" type="hidden" name="hitcountfromui" value=@ViewBag.lasthitcount />
+                            <input id="token" type="hidden" name="token" value=@ViewBag.NextPageToken />
+                            <input id="bt_next" class="btn" type="submit" value="Next" />
+                        </form>
+                    </div>
+                }
+                @if (@ViewBag.lasthitcount == 3)
+                {
+                    <div class="col m12">
+                        <a href="/" class="btn home">Home</a>
+                    </div>
+                }
+            </div>
+        </div>
+    </main>
+    @Html.Partial("_FooterPartial")
 
 </body>
 </html>

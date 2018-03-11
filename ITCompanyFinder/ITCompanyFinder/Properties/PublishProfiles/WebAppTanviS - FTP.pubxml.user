@@ -6,6 +6,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgIz3XtqQuEi1YMV0HWrTpAAAAAACAAAAAAADZgAAwAAAABAAAABWJd7YipQKtxKCOYQ1iL2DAAAAAASAAACgAAAAEAAAAPTqNwT+p3QL7w5nUekEQrSAAAAAI6b4UPmRU90CIKFboGvXLF5w6ssFtwvDXgtB3yD8D1vmpfJULWDGuoRGqXnczBY7nvT5uonhlGOmIYxHgcUnUImlKE2UY1D8mn9f97+5aZUqrvZEtXPNJD5J51c/hzMPV/2+LJ5yHbBhs/O7k+jXgLVCPtqn+PwiGdNSjcHahBEUAAAAm1TrsCzutaZR6A0kRpPlBpJGBzU=</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkS6WegU3xEeuYOTrRBT6pAAAAAACAAAAAAAQZgAAAAEAACAAAAAa/z5/hWvn2pmuviqYAxssc8ZBGikw5SRr3Aa4SEC1vgAAAAAOgAAAAAIAACAAAACGTvxWF2ymK2gkVIM5kCbrZCzv56bATg+lao+yiAR0gYAAAACnDrz7XN6uw//hmdn1Vef6boKTXZCUxmIq9Jh3YJhETt1tVdaLymdESMxwuVqMI98CJxsHoIKGA/NxZWX7Kyhg1N0ia9BpC4xSQzCnqsRwvxkoxJeAlJB7e8lxBm9LYXryNOEysJ/Dy8GE5deNBaNRkh2cNVGoenudS+h10hwAu0AAAABDNSpOj8/wrR+79msqVnn3hrZkTZUvlHsb8RiHnqZSOH/w3gIoARRgb5dZxJn57LWCQnWTlNyyhpL4VvWKonqs</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-dm1-069.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/11/2018 15:21:03</publishTime>
+    </File>
+    <File Include="assets/css/Style.css">
+      <publishTime>03/12/2018 01:00:52</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/11/2018 15:21:04</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/11/2018 15:21:03</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/12/2018 01:01:55</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
