@@ -177,24 +177,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tanvi.sehgal\\.nuget\\packages\\": {},
+    "C:\\Users\\TANVIPC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
+      "projectUniqueName": "G:\\office\\New folder\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
       "projectName": "ITCompanyFinder.DataAccessLayer",
-      "projectPath": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\tanvi.sehgal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\obj\\",
+      "projectPath": "G:\\office\\New folder\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\TANVIPC\\.nuget\\packages\\",
+      "outputPath": "G:\\office\\New folder\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tanvi.sehgal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\TANVIPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

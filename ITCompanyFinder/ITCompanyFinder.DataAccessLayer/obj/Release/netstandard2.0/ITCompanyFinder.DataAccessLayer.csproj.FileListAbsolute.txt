@@ -16,3 +16,12 @@ C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataA
 C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfo.cs
 C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
 C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.deps.json
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.csprojResolveAssemblyReference.cache
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.csproj.CoreCompileInputs.cache
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfoInputs.cache
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.AssemblyInfo.cs
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.DataAccessLayer\obj\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb

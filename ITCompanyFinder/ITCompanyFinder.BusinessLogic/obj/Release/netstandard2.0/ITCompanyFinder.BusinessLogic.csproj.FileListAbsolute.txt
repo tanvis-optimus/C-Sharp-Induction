@@ -21,3 +21,15 @@ C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.Busin
 C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csproj.CopyComplete
 C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
 C:\Users\tanvi.sehgal\source\repos\sprint1\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.deps.json
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.dll
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\bin\Release\netstandard2.0\ITCompanyFinder.DataAccessLayer.pdb
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csprojResolveAssemblyReference.cache
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csproj.CoreCompileInputs.cache
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfoInputs.cache
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.AssemblyInfo.cs
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.csproj.CopyComplete
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.dll
+G:\office\New folder\ITCompanyFinder\ITCompanyFinder.BusinessLogic\obj\Release\netstandard2.0\ITCompanyFinder.BusinessLogic.pdb

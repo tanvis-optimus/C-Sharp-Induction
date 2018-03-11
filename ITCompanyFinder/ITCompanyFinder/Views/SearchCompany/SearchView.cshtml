@@ -16,10 +16,11 @@
     <h1 align="center">
         <b>IT Company Finder</b>
     </h1>
-    <form align="center" action="SearchCompany/DisplayCompanies" method="post" onsubmit="return validate(event)" >
+    <form align="center" action="SearchCompany/DisplayCompanies" method="post" onsubmit="return validate(event)">
 
         Enter Location Here : <input id="tx_location" type="text" name="tx_location" /><br?></br?>
         <input id="bt_search" type="submit" value="Search" />
+        <input id="sethitcount" type="hidden" name="sethitcount" value="0" />
         <p style="display:none;" id="tx_error">Enter a Valid Location</p>
 
     </form>

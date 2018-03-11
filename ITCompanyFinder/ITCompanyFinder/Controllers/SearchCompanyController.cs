@@ -10,8 +10,8 @@ namespace ITCompanyFinder.Controllers
     {
         static int hitcount;
         static string city;
-         string token;
-        
+        string token;
+
 
         // GET: SearchCompany
         public ActionResult Index()
@@ -36,22 +36,32 @@ namespace ITCompanyFinder.Controllers
         [HttpPost]
         public ActionResult DisplayCompanies()
         {
-            if (hitcount == 0)
-            {
-                hitcount++;
-                city = Request["tx_location"];
-                token = string.Empty;
-            }
-            else
-            {
+            hitcount = Int32.Parse(Request["sethitcount"]);
+            hitcount++;
+            city = Request["tx_location"];
+            token = string.Empty;
+            var selectedCompanies = GetData();
+            return View("CompaniesDataView", selectedCompanies);
 
-                hitcount = Int32.Parse(Request["hitcountfromui"]) + 1;
-                token = ViewBag.NextpageToken;
-                token = Request["token"];
+        }
 
-            }
 
-            DataParsing  setLocation = new DataParsing();
+        public ActionResult NextPage()
+        {
+
+            hitcount = Int32.Parse(Request["hitcountfromui"]) + 1;
+            token = ViewBag.NextpageToken;
+            token = Request["token"];
+            var selectedCompanies = GetData();
+            return View("CompaniesDataView", selectedCompanies);
+
+
+        }
+
+
+        private List<CompanyDetailsModelUI> GetData()
+        {
+            DataParsing setLocation = new DataParsing();
             var result = setLocation.GetCompanyByLocation(city, hitcount, token);
             ViewBag.HasResponse = setLocation.HasCity;
 
@@ -68,10 +78,8 @@ namespace ITCompanyFinder.Controllers
             }
             ViewBag.NextPageToken = result.NextPageToken;
             ViewBag.lasthitcount = hitcount;
-
-            return View("CompaniesDataView", selectedCompanies);
-
-        }    
-     }
+            return selectedCompanies;
+        }
+    }
 
 }
