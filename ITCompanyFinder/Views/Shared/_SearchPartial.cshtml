@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = null;
+}
+<div class="row">
+    <form action="/SearchCompany/DisplayCompanies" method="post" onsubmit="return validate()">
+        <div class="input-field col m6 offset-m3">
+            <i class="material-icons prefix">search</i>
+            <input id="tx_location" name="tx_location" type="text">
+            <input id="sethitcount" type="hidden" name="sethitcount" value="0" />
+            <label for="tx_location">Enter location</label>
+            <p class="hidden center-align" id="tx_error">Enter valid location</p>
+        </div>
+</div>
+<div class="row">
+    <div class="col m12 center-align">
+        <input id="bt_search" class="btn" type="submit" value="Search">
+    </div>
+</div>
+     </form>

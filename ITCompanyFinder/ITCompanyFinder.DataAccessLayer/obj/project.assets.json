@@ -177,27 +177,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TANVIPC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\sysadmin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\office\\New folder\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
       "projectName": "ITCompanyFinder.DataAccessLayer",
-      "projectPath": "G:\\office\\New folder\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\TANVIPC\\.nuget\\packages\\",
-      "outputPath": "G:\\office\\New folder\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\obj\\",
+      "projectPath": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\ITCompanyFinder.DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\sysadmin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanvi.sehgal\\source\\repos\\sprint1\\ITCompanyFinder\\ITCompanyFinder.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\TANVIPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\sysadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

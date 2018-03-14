@@ -11,7 +11,7 @@ namespace ITCompanyFinder.BusinessLogic
     public class CompanyDetailsModelBL
     {
         #region constructor
-        // Initialises the company details property
+        // Initialises the Names and Addresses property
         public CompanyDetailsModelBL()
         {
             Names = new List<String>();

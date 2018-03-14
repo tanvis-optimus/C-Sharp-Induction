@@ -163,6 +163,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile3.pubxml" />
     <None Include="Properties\PublishProfiles\WebAppTanviS - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\WebAppTanviS - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

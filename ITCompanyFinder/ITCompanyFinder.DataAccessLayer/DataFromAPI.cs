@@ -21,20 +21,23 @@ namespace ITCompanyFinder.DataAccessLayer
         #region Constructor
         public DataFromAPI()
         {
-            _mApiKey = "AIzaSyDHI_74KgC8rZa_MTgL0OoI9MdGZ8gpUbY";
+            _mApiKey = "AIzaSyDQ9ooOBSyT6zTqhdx_-msCjWqJUPECxl8";
             _mUrl = "https://maps.googleapis.com/maps/api/place/textsearch/xml?";
         }
-        #endregion        
+        #endregion
 
         #region RequestToApi
         /// <summary>
         /// this method hits the api and returns the response
         /// </summary>
+        /// <param name="location"></param>
+        /// <param name="hitCount"></param>
+        /// <param name="token"></param>
         /// <returns></returns>
         public String RequestToApi(String location, int hitCount, string token)
         {
             if (hitCount == 1)
-            { 
+            {
                 //concatenating results to form complete url
                 _mReq = _mUrl + "query=" + "IT+companies+in+" + location + "&key=" + _mApiKey;
             }
